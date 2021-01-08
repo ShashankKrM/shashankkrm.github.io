@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+    img {
+        max-width: 100%;
+        object-fit: cover;
+        
+    }
+</style>
+<div class="main-container">
+    <img src="{{ post.thumbnmail.url }}">
+
+    <h2> {{ post.headline }}</h2>
+
+    <h4> {{ post.sub_heading }} </h4>
+</div>
+
+{% include 'footer.html' %}
+{% endblock content %}
