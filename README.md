@@ -9,7 +9,7 @@ Technology used:
       3.  JavaScript
       4.  Bootstrap
       
-  *Backend:
+  *Framework:
           Django/Python
       
   *Database:
